@@ -114,7 +114,7 @@ const Trainings: React.FC = (): ReactElement => {
                       <Button
                         size="small"
                         onClick={(): void => {
-                          navigate(`/Appointments/${trainingPlan.id}`);
+                          navigate(`/eyetrainerfrontend/Appointments/${trainingPlan.id}`);
                         }}
                       >
                         View

@@ -103,7 +103,7 @@ const Appointments: React.FC = (): ReactElement => {
                       <Button
                         size="small"
                         onClick={(): void => {
-                          navigate(`/Appointments/${appointment.id}`);
+                          navigate(`/eyetrainerfrontend/Appointments/${appointment.id}`);
                         }}
                       >
                         View

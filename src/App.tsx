@@ -45,7 +45,7 @@ const App: React.FC = (): ReactElement => {
                   <Footer />
                 </>
               }
-              path="/Appointments"
+              path="/eyetrainerfrontend/Appointments"
             >
               <Route index element={<Appointments />} />
               <Route path="Create" element={<CreateAppointment />} />
@@ -66,7 +66,7 @@ const App: React.FC = (): ReactElement => {
                     <Footer />
                   </>
                 }
-                path="/Exercises"
+                path="/eyetrainerfrontend/Exercises"
               />
             </Route>
           </Route>
@@ -77,7 +77,7 @@ const App: React.FC = (): ReactElement => {
                 <Footer />
               </>
             }
-            path="/SignUp"
+            path="/eyetrainerfrontend/SignUp"
           />
           <Route
             element={
@@ -86,7 +86,7 @@ const App: React.FC = (): ReactElement => {
                 <Footer />
               </>
             }
-            path="/SignIn"
+            path="/eyetrainerfrontend/SignIn"
           />
           <Route
             path="*"

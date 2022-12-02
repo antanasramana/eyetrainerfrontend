@@ -77,7 +77,7 @@ const SignUp: React.FC = (): ReactElement => {
     const registerResponse = await UserService.register(registerUserRequest);
     console.log(registerResponse);
     if (registerResponse.email != null || registerResponse.email !== "") {
-      navigate("/SignIn");
+      navigate("/eyetrainerfrontend/SignIn");
     }
   }
 

@@ -14,7 +14,7 @@ const AuthenticatedRoute: React.FC = (): ReactElement => {
   return isAuthenticatedUser ? (
     <Outlet />
   ) : (
-    <Navigate to="/SignIn" replace={true} />
+    <Navigate to="/eyetrainerfrontend/SignIn" replace={true} />
   );
 };
 

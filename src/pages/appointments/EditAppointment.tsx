@@ -75,7 +75,7 @@ const EditAppointment: React.FC = (): ReactElement => {
       <Container sx={{ py: 1 }} maxWidth="md">
         <Button
           onClick={(): void => {
-            navigate("/Appointments");
+            navigate("/eyetrainerfrontend/Appointments");
           }}
           type="submit"
           variant="contained"

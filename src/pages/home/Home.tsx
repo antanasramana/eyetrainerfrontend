@@ -50,7 +50,7 @@ const EyeExercises: React.FC = (): ReactElement => {
             <Button
               variant="contained"
               onClick={(): void => {
-                navigate("/Appointments/1/Trainings");
+                navigate("/eyetrainerfrontend/Appointments/1/Trainings");
               }}
             >
               Start training!
@@ -58,7 +58,7 @@ const EyeExercises: React.FC = (): ReactElement => {
             <Button
               variant="outlined"
               onClick={(): void => {
-                navigate("/Appointments/Create");
+                navigate("/eyetrainerfrontend/Appointments/Create");
               }}
             >
               Register for an appointment

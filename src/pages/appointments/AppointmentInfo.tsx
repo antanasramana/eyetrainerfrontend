@@ -43,7 +43,7 @@ const AppointmentInfo: React.FC = (): ReactElement => {
 
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   async function navigateToTrainings(): Promise<void> {
-    navigate(`/Appointments/${appointmentId}/Trainings`);
+    navigate(`/eyetrainerfrontend/Appointments/${appointmentId}/Trainings`);
   }
 
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -52,7 +52,7 @@ const AppointmentInfo: React.FC = (): ReactElement => {
       Number(appointmentId)
     );
     if (isDeleted) {
-      navigate("/Appointments");
+      navigate("/eyetrainerfrontend/Appointments");
     }
   }
 
@@ -76,7 +76,7 @@ const AppointmentInfo: React.FC = (): ReactElement => {
       <Container sx={{ py: 1 }} maxWidth="lg">
         <Button
           onClick={(): void => {
-            navigate("/Appointments");
+            navigate("/eyetrainerfrontend/Appointments");
           }}
           type="submit"
           variant="contained"
@@ -163,7 +163,7 @@ const AppointmentInfo: React.FC = (): ReactElement => {
           </Button>
           <Button
             onClick={(): void =>
-              navigate(`/Appointments/${appointmentId}/Edit`)
+              navigate(`/eyetrainerfrontend/Appointments/${appointmentId}/Edit`)
             }
             color="success"
             type="submit"
