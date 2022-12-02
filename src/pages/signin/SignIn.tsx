@@ -44,7 +44,7 @@ const SignIn: React.FC = (): ReactElement => {
 
     if (loginResponse.token) {
       dispatch(setUserInfo(loginResponse));
-      navigate("/");
+      navigate("/eyetrainerfrontend");
     }
   }
 
