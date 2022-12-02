@@ -96,7 +96,7 @@ const SignIn: React.FC = (): ReactElement => {
           </Button>
           <Grid container justifyContent="flex-end">
             <Grid item>
-              <Link href="/SignUp" variant="body2">
+              <Link href="/eyetrainerfrontend/SignUp" variant="body2">
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>
