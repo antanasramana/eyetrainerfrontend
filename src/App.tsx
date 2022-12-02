@@ -29,6 +29,7 @@ const App: React.FC = (): ReactElement => {
           <Route element={<AuthenticatedRoute />}>
             <Route
               index
+              path="/eyetrainerfrontend"
               element={
                 <>
                   <NavigationMenu />
