@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eyetrainerfrontend/static/css/main.36e04a6f.css",
-    "main.js": "/eyetrainerfrontend/static/js/main.c6b80a43.js",
+    "main.js": "/eyetrainerfrontend/static/js/main.b58c64d8.js",
     "static/js/787.ed870516.chunk.js": "/eyetrainerfrontend/static/js/787.ed870516.chunk.js",
     "index.html": "/eyetrainerfrontend/index.html",
     "main.36e04a6f.css.map": "/eyetrainerfrontend/static/css/main.36e04a6f.css.map",
-    "main.c6b80a43.js.map": "/eyetrainerfrontend/static/js/main.c6b80a43.js.map",
+    "main.b58c64d8.js.map": "/eyetrainerfrontend/static/js/main.b58c64d8.js.map",
     "787.ed870516.chunk.js.map": "/eyetrainerfrontend/static/js/787.ed870516.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.36e04a6f.css",
-    "static/js/main.c6b80a43.js"
+    "static/js/main.b58c64d8.js"
   ]
 }
